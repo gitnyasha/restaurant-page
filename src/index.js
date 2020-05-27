@@ -1,28 +1,28 @@
-import { menu, menuPage } from "./modules/menu";
-import { contact, cleanContact } from "./modules/contact";
-import { home, homePage } from "./modules/home";
+import { menu, menuPage } from './modules/menu';
+import { contact, cleanContact } from './modules/contact';
+import { home, homePage } from './modules/home';
 
 const tab = () => {
-  const mainDocument = document.querySelector("#content");
-  const navbar = document.createElement("navbar");
-  navbar.id = "navbar";
+  const mainDocument = document.querySelector('#content');
+  const navbar = document.createElement('navbar');
+  navbar.id = 'navbar';
 
-  const list = document.createElement("ul");
-  list.classList.add("nav-list");
+  const list = document.createElement('ul');
+  list.classList.add('nav-list');
 
-  const menuElements = ["Home", "Menu", "Contacts"];
+  const menuElements = ['Home', 'Menu', 'Contacts'];
 
   for (let el = 0; el < menuElements.length; el++) {
-    let li = document.createElement("li");
-    let anchor = document.createElement("a");
+    let li = document.createElement('li');
+    let anchor = document.createElement('a');
 
     anchor.innerText = `${menuElements[el]}`;
     anchor.id = `${menuElements[el]}`;
-    anchor.classList.add("nav-link");
-    anchor.addEventListener("click", () => {
+    anchor.classList.add('nav-link');
+    anchor.addEventListener('click', () => {
       getMenuToShow(menuElements[el]);
     });
-    anchor.href = "#";
+    anchor.href = '#';
 
     li.appendChild(anchor);
     list.appendChild(li);
@@ -35,13 +35,13 @@ const tab = () => {
 function getMenuToShow(element) {
   cleaner();
   switch (element) {
-    case "Home":
+    case 'Home':
       home();
       break;
-    case "Menu":
+    case 'Menu':
       menu();
       break;
-    case "Contacts":
+    case 'Contacts':
       contact();
       break;
     default:
