@@ -11,7 +11,9 @@ const home = () => {
   image.classList.add('image');
   const paragraph = document.createElement('p');
 
-  paragraph.textContent = `This is my restaurant page created with javascript`;
+  paragraph.textContent = `
+  This is my restaurant page created with javascript
+  `;
 
   information.appendChild(image);
   information.appendChild(paragraph);
