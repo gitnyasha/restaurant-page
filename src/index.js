@@ -47,7 +47,6 @@ function getMenuToShow(element) {
     default:
       break;
   }
-  return;
 }
 
 const cleaner = () => {
