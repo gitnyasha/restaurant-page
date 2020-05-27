@@ -12,9 +12,9 @@ const tab = () => {
 
   const menuElements = ['Home', 'Menu', 'Contacts'];
 
-  for (let el = 0; el < menuElements.length; el++) {
-    let li = document.createElement('li');
-    let anchor = document.createElement('a');
+  for (const el = 0; el < menuElements.length; el += 1) {
+    const li = document.createElement('li');
+    const anchor = document.createElement('a');
 
     anchor.innerText = `${menuElements[el]}`;
     anchor.id = `${menuElements[el]}`;

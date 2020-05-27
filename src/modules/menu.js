@@ -1,21 +1,21 @@
-const mainDocument = document.querySelector("#content");
-const infoContainer = document.createElement("div");
+const mainDocument = document.querySelector('#content');
+const infoContainer = document.createElement('div');
 
 const menu = () => {
-  infoContainer.classList.add("info-container");
+  infoContainer.classList.add('info-container');
 
-  const information = document.createElement("div");
-  information.classList.add("info");
+  const information = document.createElement('div');
+  information.classList.add('info');
 
-  const title = document.createElement("h4");
-  title.textContent = "Choose what you want";
+  const title = document.createElement('h4');
+  title.textContent = 'Choose what you want';
 
-  const image1 = document.createElement("img");
-  image1.classList.add("image1");
-  const image2 = document.createElement("img");
-  image2.classList.add("image2");
-  const image3 = document.createElement("img");
-  image3.classList.add("image3");
+  const image1 = document.createElement('img');
+  image1.classList.add('image1');
+  const image2 = document.createElement('img');
+  image2.classList.add('image2');
+  const image3 = document.createElement('img');
+  image3.classList.add('image3');
 
   information.appendChild(title);
   information.appendChild(image1);

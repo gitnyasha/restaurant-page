@@ -1,16 +1,16 @@
-const mainDocument = document.querySelector("#content");
-const infoContainer = document.createElement("div");
+const mainDocument = document.querySelector('#content');
+const infoContainer = document.createElement('div');
 
 const contact = () => {
-  infoContainer.classList.add("info-container");
+  infoContainer.classList.add('info-container');
 
-  const information = document.createElement("div");
-  information.classList.add("info");
+  const information = document.createElement('div');
+  information.classList.add('info');
 
-  const title = document.createElement("h4");
-  const paragraph = document.createElement("p");
+  const title = document.createElement('h4');
+  const paragraph = document.createElement('p');
 
-  title.textContent = "Contact us at: ";
+  title.textContent = 'Contact us at: ';
 
   paragraph.innerHTML = ` Number: 0000000000 <br> Email: name@email.com `;
 
