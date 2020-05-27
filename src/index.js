@@ -12,7 +12,7 @@ const tab = () => {
 
   const menuElements = ['Home', 'Menu', 'Contacts'];
 
-  for (const el = 0; el < menuElements.length; el += 1) {
+  for (const el = 0; el < menuElements.length; el++) {
     const li = document.createElement('li');
     const anchor = document.createElement('a');
 

@@ -12,7 +12,9 @@ const contact = () => {
 
   title.textContent = 'Contact us at: ';
 
-  paragraph.innerHTML = ` Number: 0000000000 <br> Email: name@email.com `;
+  paragraph.innerHTML = ` 
+  Number: 0000000000 <br> Email: name@email.com 
+  `;
 
   information.appendChild(title);
   information.appendChild(paragraph);
