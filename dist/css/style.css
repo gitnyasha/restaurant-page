@@ -1,0 +1,85 @@
+#content {
+  background-image: url(../img/slider1.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+#navbar {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.nav-list {
+  width: 80%;
+  display: flex;
+  list-style: none;
+  font-size: 1.4em;
+  align-items: center;
+}
+
+.image {
+  background-image: url(../img/myself.png);
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url(../img/meat-menu.jpg);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.image2 {
+  background-image: url(../img/menu-vegetarian.jpg);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.image3 {
+  background-image: url(../img/fish-menu.jpg);
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-link {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  padding: 1.3em;
+  color: #222;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+}
+
+.info-container {
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.info {
+  font-size: 1.5em;
+  color: white;
+}
